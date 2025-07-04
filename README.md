@@ -15,9 +15,6 @@ Análisis completo del crecimiento económico de la **Región del Maule** basado
 ```
 📂 Crecimiento Economico Regional/
 ├── 📊 Crecimiento_economico_PIB.ipynb    # Notebook principal con análisis completo
-├── 📊 Crecimiento_economico_.ipynb       # Notebook adicional
-├── 📁 data/
-│   └── 📋 Cuadro_03072025235920.xlsx     # Datos PIB regional trimestral
 └── 📄 README.md                          # Este archivo
 ```
 
@@ -80,8 +77,17 @@ Análisis completo del crecimiento económico de la **Región del Maule** basado
 - **SARIMA**: Para autocorrelación temporal
 - **STL**: Para descomposición estacional robusta
 
+### 📊 Base de datos
+Los datos utilizados en este proyecto fueron extraídos desde el sitio del Banco Central de Chile, específicamente desde el siguiente enlace:
 
+[https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_CCNN/MN_CCNN76/CCNN2018_PIB_REGIONAL_T/637801731286774106](https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_CCNN/MN_CCNN76/CCNN2018_PIB_REGIONAL_T/637801731286774106)
 
+Parámetros utilizados:
+- Fecha de inicio: 2013
+- Fecha de término: 2025
+- Frecuencia: Trimestral
+- Tipo de cálculo: Índice
+- Año base: 2018
 
 ### 🎯 Recomendaciones
 1. **Planificar inversión pública** considerando ciclos estacionales
